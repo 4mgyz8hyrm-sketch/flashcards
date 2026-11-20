@@ -1,0 +1,202 @@
+[
+  {
+    "topic": "Cells and living things",
+    "question": "What is the smallest unit that can carry out the processes of life?",
+    "answer": "A cell. All living things are made of one or more cells."
+  },
+  {
+    "topic": "Cells and living things",
+    "question": "Which part of a cell contains genetic information and controls the cell?",
+    "answer": "The nucleus."
+  },
+  {
+    "topic": "Cells and living things",
+    "question": "What is the jelly-like material inside a cell called?",
+    "answer": "Cytoplasm. Many chemical reactions happen there."
+  },
+  {
+    "topic": "Cells and living things",
+    "question": "What is the name of the thin layer that controls what enters and leaves a cell?",
+    "answer": "The cell membrane."
+  },
+  {
+    "topic": "Cells and living things",
+    "question": "Which structures in plant cells absorb light for photosynthesis?",
+    "answer": "Chloroplasts. They contain the green pigment chlorophyll."
+  },
+  {
+    "topic": "Cells and living things",
+    "question": "Name one structure found in plant cells but not animal cells.",
+    "answer": "A cell wall, chloroplasts, or a permanent vacuole."
+  },
+  {
+    "topic": "Cells and living things",
+    "question": "What is a habitat?",
+    "answer": "The place where an organism lives."
+  },
+  {
+    "topic": "Cells and living things",
+    "question": "What do we call all the different species living together in a habitat?",
+    "answer": "A community."
+  },
+  {
+    "topic": "Materials and particles",
+    "question": "What are the three common states of matter?",
+    "answer": "Solid, liquid and gas."
+  },
+  {
+    "topic": "Materials and particles",
+    "question": "In which state of matter are particles close together but able to move past one another?",
+    "answer": "In a liquid."
+  },
+  {
+    "topic": "Materials and particles",
+    "question": "What happens to the particles of a substance when it is heated?",
+    "answer": "They gain energy and move or vibrate faster."
+  },
+  {
+    "topic": "Materials and particles",
+    "question": "What is the change of state from a liquid to a gas called?",
+    "answer": "Evaporation or boiling. Both change a liquid into a gas."
+  },
+  {
+    "topic": "Materials and particles",
+    "question": "What is a pure substance made from just one type of atom called?",
+    "answer": "An element."
+  },
+  {
+    "topic": "Materials and particles",
+    "question": "What is a substance made when two or more elements chemically join together?",
+    "answer": "A compound."
+  },
+  {
+    "topic": "Materials and particles",
+    "question": "How could you separate sand from water?",
+    "answer": "By filtration: the sand stays in the filter paper while water passes through."
+  },
+  {
+    "topic": "Materials and particles",
+    "question": "What is the name for a material that lets electricity flow through it easily?",
+    "answer": "An electrical conductor, such as copper."
+  },
+  {
+    "topic": "Forces and motion",
+    "question": "What is a force?",
+    "answer": "A push or a pull."
+  },
+  {
+    "topic": "Forces and motion",
+    "question": "What unit do we use to measure force?",
+    "answer": "The newton, written as N."
+  },
+  {
+    "topic": "Forces and motion",
+    "question": "What force pulls objects towards the centre of Earth?",
+    "answer": "Gravity."
+  },
+  {
+    "topic": "Forces and motion",
+    "question": "What is friction?",
+    "answer": "A force that acts between surfaces in contact and opposes their movement."
+  },
+  {
+    "topic": "Forces and motion",
+    "question": "What can happen when two forces on an object are balanced?",
+    "answer": "Its motion does not change: it stays still or continues at a steady speed in a straight line."
+  },
+  {
+    "topic": "Forces and motion",
+    "question": "What piece of equipment can measure the size of a force?",
+    "answer": "A newton meter (also called a force meter)."
+  },
+  {
+    "topic": "Forces and motion",
+    "question": "What is the name for the force that slows an object moving through air?",
+    "answer": "Air resistance (a type of drag)."
+  },
+  {
+    "topic": "Forces and motion",
+    "question": "What happens to an object's speed if it travels 12 metres in 3 seconds?",
+    "answer": "Its speed is 4 metres per second: speed = distance ÷ time."
+  },
+  {
+    "topic": "Energy and electricity",
+    "question": "What is the unit of energy?",
+    "answer": "The joule, written as J."
+  },
+  {
+    "topic": "Energy and electricity",
+    "question": "What type of energy is stored in food and fuel?",
+    "answer": "Chemical energy."
+  },
+  {
+    "topic": "Energy and electricity",
+    "question": "What do we call a complete path that allows electric current to flow?",
+    "answer": "A complete circuit."
+  },
+  {
+    "topic": "Energy and electricity",
+    "question": "In a simple circuit, what does a switch do?",
+    "answer": "It opens or closes the circuit to stop or allow current to flow."
+  },
+  {
+    "topic": "Energy and electricity",
+    "question": "What is the job of a cell or battery in a circuit?",
+    "answer": "It provides energy to push charge around the circuit."
+  },
+  {
+    "topic": "Energy and electricity",
+    "question": "What is the difference between a renewable and a non-renewable energy source?",
+    "answer": "A renewable source is replaced naturally in a short time; a non-renewable source is used faster than it is replaced."
+  },
+  {
+    "topic": "Energy and electricity",
+    "question": "Which energy source uses moving air to generate electricity?",
+    "answer": "Wind power."
+  },
+  {
+    "topic": "Energy and electricity",
+    "question": "What energy transfer happens when a lamp is switched on?",
+    "answer": "Electrical energy is transferred mainly into light and thermal energy."
+  },
+  {
+    "topic": "Earth and space",
+    "question": "What is the name of the star at the centre of our Solar System?",
+    "answer": "The Sun."
+  },
+  {
+    "topic": "Earth and space",
+    "question": "What causes day and night on Earth?",
+    "answer": "Earth spins on its axis. The side facing the Sun has daytime."
+  },
+  {
+    "topic": "Earth and space",
+    "question": "What force keeps planets moving around the Sun?",
+    "answer": "Gravity."
+  },
+  {
+    "topic": "Earth and space",
+    "question": "Is the Moon a star, a planet or a natural satellite?",
+    "answer": "A natural satellite of Earth."
+  },
+  {
+    "topic": "Earth and space",
+    "question": "Which planet is closest to the Sun?",
+    "answer": "Mercury."
+  },
+  {
+    "topic": "Earth and space",
+    "question": "Why can we see the Moon even though it does not make its own light?",
+    "answer": "It reflects light from the Sun."
+  },
+  {
+    "topic": "Earth and space",
+    "question": "What is the name for the path a planet follows around the Sun?",
+    "answer": "An orbit."
+  },
+  {
+    "topic": "Earth and space",
+    "question": "What are the three main layers of Earth, from the outside in?",
+    "answer": "Crust, mantle and core."
+  }
+]

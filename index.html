@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#11142b">
+    <meta name="description" content="Random Year 7 science flashcards. Pick a topic, test yourself, and reveal the answer when you're ready.">
+    <title>Science Sparks — Year 7 flashcards</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+        background: #11142b;
+        color: #f7f5ff;
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-width: 320px;
+        min-height: 100vh;
+        margin: 0;
+        background:
+          radial-gradient(ellipse at 10% 12%, rgb(91 57 196 / 30%), transparent 34rem),
+          radial-gradient(ellipse at 92% 78%, rgb(18 167 177 / 20%), transparent 31rem),
+          #11142b;
+      }
+
+      button,
+      select {
+        font: inherit;
+      }
+
+      button:focus-visible,
+      select:focus-visible {
+        outline: 3px solid #8ef2e8;
+        outline-offset: 3px;
+      }
+
+      .page {
+        width: min(100% - 2rem, 940px);
+        margin: 0 auto;
+        padding: 2rem 0 3rem;
+      }
+
+      .topline {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+        font-size: 0.95rem;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+      }
+
+      .brand-mark {
+        display: grid;
+        width: 2.4rem;
+        height: 2.4rem;
+        place-items: center;
+        border-radius: 0.85rem;
+        background: linear-gradient(140deg, #ffcb68, #ff7c91);
+        color: #211b3c;
+        font-size: 1.25rem;
+      }
+
+      .year-tag {
+        padding: 0.45rem 0.75rem;
+        border: 1px solid rgb(255 255 255 / 15%);
+        border-radius: 999px;
+        color: #c9c6e2;
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+
+      .intro {
+        padding: clamp(2.5rem, 7vw, 5rem) 0 2rem;
+        text-align: center;
+      }
+
+      .eyebrow {
+        margin: 0 0 0.8rem;
+        color: #8ef2e8;
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.17em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2.7rem, 8vw, 5.2rem);
+        letter-spacing: -0.065em;
+        line-height: 1;
+      }
+
+      h1 span {
+        color: #ffcb68;
+      }
+
+      .subtitle {
+        max-width: 35rem;
+        margin: 1.2rem auto 0;
+        color: #c9c6e2;
+        font-size: clamp(1rem, 2.5vw, 1.15rem);
+        line-height: 1.6;
+      }
+
+      .controls {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        margin: 0 auto 1rem;
+        padding: 0.9rem 1rem;
+        border: 1px solid rgb(255 255 255 / 10%);
+        border-radius: 1rem;
+        background: rgb(255 255 255 / 5%);
+      }
+
+      .filter-label {
+        color: #c9c6e2;
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+
+      .filter-label select {
+        margin-left: 0.45rem;
+        padding: 0.65rem 2rem 0.65rem 0.8rem;
+        border: 1px solid rgb(255 255 255 / 15%);
+        border-radius: 0.7rem;
+        background: #202342;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      .count {
+        color: #a8a5c4;
+        font-size: 0.85rem;
+        text-align: right;
+      }
+
+      .flashcard {
+        position: relative;
+        overflow: hidden;
+        min-height: 350px;
+        padding: clamp(1.5rem, 6vw, 3.5rem);
+        border: 1px solid rgb(255 255 255 / 75%);
+        border-radius: 1.7rem;
+        background: #f7f5ff;
+        box-shadow: 0 26px 70px rgb(3 5 20 / 40%);
+        color: #20213d;
+      }
+
+      .flashcard::after {
+        position: absolute;
+        right: -3.2rem;
+        bottom: -5.2rem;
+        width: 12rem;
+        height: 12rem;
+        border: 1.6rem solid rgb(106 91 214 / 8%);
+        border-radius: 50%;
+        content: "";
+        pointer-events: none;
+      }
+
+      .card-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+
+      .topic {
+        display: inline-flex;
+        padding: 0.5rem 0.85rem;
+        border-radius: 999px;
+        background: #e8e4ff;
+        color: #5143ac;
+        font-size: 0.78rem;
+        font-weight: 800;
+      }
+
+      .card-hint {
+        color: #76758e;
+        font-size: 0.85rem;
+        font-weight: 700;
+      }
+
+      .question-area {
+        display: grid;
+        min-height: 190px;
+        align-content: center;
+        padding: 1.7rem 0;
+      }
+
+      .question {
+        max-width: 42rem;
+        margin: 0;
+        font-size: clamp(1.7rem, 5vw, 2.7rem);
+        letter-spacing: -0.035em;
+        line-height: 1.2;
+      }
+
+      .answer {
+        margin-top: 1.3rem;
+        padding: 1rem 1.15rem;
+        border-left: 4px solid #25bdb3;
+        border-radius: 0 0.8rem 0.8rem 0;
+        background: #e2f8f4;
+        color: #173c3d;
+        font-size: 1.05rem;
+        line-height: 1.6;
+        white-space: pre-line;
+      }
+
+      .answer[hidden] {
+        display: none;
+      }
+
+      .card-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+      }
+
+      .button {
+        min-height: 2.9rem;
+        padding: 0.75rem 1.15rem;
+        border: 0;
+        border-radius: 0.8rem;
+        font-weight: 800;
+        cursor: pointer;
+        transition: transform 140ms ease, filter 140ms ease;
+      }
+
+      .button:hover:not(:disabled) {
+        filter: brightness(1.05);
+        transform: translateY(-2px);
+      }
+
+      .button:disabled {
+        cursor: default;
+        opacity: 0.68;
+      }
+
+      .button-primary {
+        background: #6554d8;
+        color: #fff;
+        box-shadow: 0 7px 16px rgb(101 84 216 / 25%);
+      }
+
+      .button-secondary {
+        border: 1px solid #d5d2e4;
+        background: transparent;
+        color: #302f4d;
+      }
+
+      .message {
+        margin: 1.5rem 0 0;
+        color: #f9b9be;
+        text-align: center;
+      }
+
+      .study-note {
+        margin: 1.3rem 0 0;
+        color: #a8a5c4;
+        font-size: 0.88rem;
+        line-height: 1.5;
+        text-align: center;
+      }
+
+      @media (max-width: 540px) {
+        .page {
+          width: min(100% - 1.25rem, 940px);
+          padding-top: 1.1rem;
+        }
+
+        .controls {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
+        .count {
+          text-align: left;
+        }
+
+        .flashcard {
+          min-height: 390px;
+          border-radius: 1.25rem;
+        }
+
+        .card-hint {
+          max-width: 6rem;
+          text-align: right;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header class="topline">
+        <div class="brand"><span class="brand-mark" aria-hidden="true">✦</span> SCIENCE SPARKS</div>
+        <span class="year-tag">YEAR 7</span>
+      </header>
+
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">Little cards. Big brain energy.</p>
+        <h1 id="page-title">Ready, set, <span>science!</span></h1>
+        <p class="subtitle">Pick a topic, have a go from memory, then reveal the answer when you’re ready. Your next card is always a surprise.</p>
+      </section>
+
+      <section class="controls" aria-label="Flashcard controls">
+        <label class="filter-label" for="topic-filter">
+          Topic
+          <select id="topic-filter" disabled>
+            <option value="all">All topics</option>
+          </select>
+        </label>
+        <span id="card-count" class="count" aria-live="polite">Loading your cards…</span>
+      </section>
+
+      <article class="flashcard" aria-labelledby="question">
+        <div class="card-top">
+          <span id="topic-badge" class="topic">Getting ready…</span>
+          <span class="card-hint">Think it through ✨</span>
+        </div>
+        <div class="question-area">
+          <h2 id="question" class="question">Loading your science cards…</h2>
+          <div id="answer" class="answer" role="status" aria-live="polite" hidden></div>
+        </div>
+        <div class="card-actions">
+          <button id="reveal-button" class="button button-primary" type="button" disabled>Reveal answer</button>
+          <button id="next-button" class="button button-secondary" type="button" disabled>Next random card ↗</button>
+        </div>
+      </article>
+      <p id="error-message" class="message" role="alert" hidden></p>
+      <p class="study-note">No scores, no pressure — just one small science win at a time.</p>
+    </main>
+
+    <script>
+      const questionElement = document.querySelector("#question");
+      const answerElement = document.querySelector("#answer");
+      const topicBadge = document.querySelector("#topic-badge");
+      const topicFilter = document.querySelector("#topic-filter");
+      const cardCount = document.querySelector("#card-count");
+      const revealButton = document.querySelector("#reveal-button");
+      const nextButton = document.querySelector("#next-button");
+      const errorMessage = document.querySelector("#error-message");
+
+      let questions = [];
+      let currentQuestion = null;
+
+      function filteredQuestions() {
+        const selectedTopic = topicFilter.value;
+        return selectedTopic === "all"
+          ? questions
+          : questions.filter((item) => item.topic === selectedTopic);
+      }
+
+      function updateCount(available) {
+        const label = available === 1 ? "card" : "cards";
+        cardCount.textContent = `${available} ${label} in this deck`;
+      }
+
+      function showRandomQuestion() {
+        const available = filteredQuestions();
+        updateCount(available.length);
+        if (available.length === 0) return;
+
+        currentQuestion = available[Math.floor(Math.random() * available.length)];
+        questionElement.textContent = currentQuestion.question;
+        topicBadge.textContent = currentQuestion.topic;
+        answerElement.textContent = currentQuestion.answer;
+        answerElement.hidden = true;
+        revealButton.disabled = false;
+        revealButton.textContent = "Reveal answer";
+      }
+
+      async function loadQuestions() {
+        try {
+          const response = await fetch("./questions.json");
+          if (!response.ok) {
+            throw new Error(`The question bank could not be loaded (${response.status}).`);
+          }
+
+          const data = await response.json();
+          if (!Array.isArray(data) || data.length === 0 || data.some((item) =>
+            !item || typeof item.topic !== "string" ||
+            typeof item.question !== "string" || typeof item.answer !== "string"
+          )) {
+            throw new Error("The question bank is empty or has an invalid format.");
+          }
+
+          questions = data;
+          const topics = [...new Set(questions.map((item) => item.topic))].sort();
+          for (const topic of topics) {
+            const option = document.createElement("option");
+            option.value = topic;
+            option.textContent = topic;
+            topicFilter.append(option);
+          }
+          topicFilter.disabled = false;
+          nextButton.disabled = false;
+          showRandomQuestion();
+        } catch (error) {
+          questionElement.textContent = "Oops! The science cards couldn't load.";
+          topicBadge.textContent = "Card deck offline";
+          cardCount.textContent = "Try refreshing the page";
+          errorMessage.textContent = error.message;
+          errorMessage.hidden = false;
+        }
+      }
+
+      revealButton.addEventListener("click", () => {
+        if (!currentQuestion) return;
+        answerElement.hidden = false;
+        revealButton.disabled = true;
+        revealButton.textContent = "Answer revealed ✓";
+      });
+
+      nextButton.addEventListener("click", showRandomQuestion);
+      topicFilter.addEventListener("change", showRandomQuestion);
+
+      loadQuestions();
+    </script>
+  </body>
+</html>

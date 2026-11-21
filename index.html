@@ -156,9 +156,9 @@
       }
 
       .controls {
-        display: flex;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
         align-items: center;
-        justify-content: space-between;
         gap: 1rem;
         margin: 0 auto 1rem;
         padding: 0.9rem 1rem;
@@ -169,23 +169,90 @@
         backdrop-filter: blur(12px);
       }
 
+      .topic-filter {
+        display: flex;
+        min-width: 0;
+        align-items: center;
+        gap: 0.6rem;
+      }
+
       .filter-label {
+        flex: none;
         color: #b7c5df;
         font-size: 0.9rem;
         font-weight: 700;
       }
 
-      .filter-label select {
-        margin-left: 0.45rem;
-        padding: 0.65rem 2rem 0.65rem 0.8rem;
+      .topic-options {
+        display: flex;
+        min-width: 0;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+      }
+
+      .topic-chip {
+        position: relative;
+      }
+
+      .topic-chip input {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        opacity: 0;
+      }
+
+      .topic-chip span {
+        display: inline-flex;
+        min-height: 44px;
+        align-items: center;
+        padding: 0.55rem 0.75rem;
         border: 1px solid #344463;
-        border-radius: 0.7rem;
+        border-radius: 999px;
         background: #111a2e;
+        color: #b7c5df;
+        font-size: 0.78rem;
+        font-weight: 800;
+        cursor: pointer;
+        transition: border-color 140ms ease, background 140ms ease, color 140ms ease, box-shadow 140ms ease;
+      }
+
+      .topic-chip input:checked + span {
+        border-color: var(--cyan);
+        background: rgb(56 242 223 / 12%);
+        box-shadow: 0 0 14px rgb(56 242 223 / 16%);
         color: var(--text);
+      }
+
+      .topic-chip input:focus-visible + span {
+        outline: 3px solid var(--lime);
+        outline-offset: 3px;
+      }
+
+      .topic-actions {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 0.4rem;
+      }
+
+      .topic-action {
+        min-height: 44px;
+        padding: 0.55rem 0.75rem;
+        border: 1px solid #344463;
+        border-radius: 999px;
+        background: transparent;
+        color: var(--cyan);
+        font-size: 0.78rem;
+        font-weight: 800;
         cursor: pointer;
       }
 
+      .topic-action:disabled {
+        cursor: default;
+        opacity: 0.5;
+      }
+
       .count {
+        grid-column: 2;
         color: var(--muted);
         font-size: 0.85rem;
         text-align: right;
@@ -410,25 +477,35 @@
         }
 
         .controls {
+          grid-template-columns: 1fr;
           align-items: flex-start;
-          flex-direction: column;
           gap: 0.45rem;
           margin-bottom: 0.65rem;
           padding: 0.55rem 0.7rem;
           border-radius: 0.8rem;
         }
 
+        .topic-filter {
+          width: 100%;
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
         .filter-label {
           font-size: 0.85rem;
         }
 
-        .filter-label select {
+        .topic-options {
+          width: 100%;
+        }
+
+        .topic-chip span {
           min-height: 44px;
-          margin-left: 0.3rem;
-          padding: 0.45rem 1.7rem 0.45rem 0.65rem;
+          padding: 0.5rem 0.65rem;
         }
 
         .count {
+          grid-column: 1;
           text-align: left;
           font-size: 0.78rem;
         }
@@ -616,12 +693,14 @@
       </section>
 
       <section class="controls" aria-label="Flashcard controls">
-        <label class="filter-label" for="topic-filter">
-          Topic
-          <select id="topic-filter" disabled>
-            <option value="all">All topics</option>
-          </select>
-        </label>
+        <div class="topic-filter">
+          <span class="filter-label">Topics</span>
+          <div id="topic-options" class="topic-options" aria-label="Choose one or more topics"></div>
+        </div>
+        <div class="topic-actions" aria-label="Topic selection controls">
+          <button id="all-topics" class="topic-action" type="button" disabled>All</button>
+          <button id="none-topics" class="topic-action" type="button" disabled>None</button>
+        </div>
         <span id="card-count" class="count" aria-live="polite">Loading your cards…</span>
       </section>
 
@@ -635,7 +714,7 @@
           <div id="answer" class="answer" role="status" aria-live="polite" hidden></div>
         </div>
         <div class="card-actions">
-          <button id="reveal-button" class="button button-primary" type="button" disabled>Reveal answer</button>
+          <button id="reveal-button" class="button button-primary" type="button" aria-pressed="false" aria-expanded="false" aria-controls="answer" disabled>Reveal answer</button>
           <button id="next-button" class="button button-secondary" type="button" disabled>Next random card ↗</button>
         </div>
       </article>
@@ -647,7 +726,9 @@
       const questionElement = document.querySelector("#question");
       const answerElement = document.querySelector("#answer");
       const topicBadge = document.querySelector("#topic-badge");
-      const topicFilter = document.querySelector("#topic-filter");
+      const topicOptions = document.querySelector("#topic-options");
+      const allTopicsButton = document.querySelector("#all-topics");
+      const noneTopicsButton = document.querySelector("#none-topics");
       const cardCount = document.querySelector("#card-count");
       const revealButton = document.querySelector("#reveal-button");
       const nextButton = document.querySelector("#next-button");
@@ -656,6 +737,9 @@
 
       let questions = [];
       let currentQuestion = null;
+      let cardBag = [];
+      let bagTopicKey = "";
+      const selectedTopics = new Set();
       const topicGlows = {
         "Skills": ["#ff59d6", "rgb(255 89 214 / 14%)", "rgb(255 89 214 / 52%)"],
         "Organisation": ["#bd86ff", "rgb(189 134 255 / 14%)", "rgb(189 134 255 / 52%)"],
@@ -671,23 +755,75 @@
       const defaultGlow = ["#38f2df", "rgb(56 242 223 / 14%)", "rgb(56 242 223 / 52%)"];
 
       function filteredQuestions() {
-        const selectedTopic = topicFilter.value;
-        return selectedTopic === "all"
-          ? questions
-          : questions.filter((item) => item.topic === selectedTopic);
+        if (selectedTopics.size === 0) return [];
+        return questions.filter((item) => selectedTopics.has(item.topic));
       }
 
-      function updateCount(available) {
-        const label = available === 1 ? "card" : "cards";
-        cardCount.textContent = `${available} ${label} in this deck`;
+      function selectedTopicKey() {
+        return [...selectedTopics].sort().join("\u001f");
+      }
+
+      function shuffle(items) {
+        const shuffled = [...items];
+        for (let index = shuffled.length - 1; index > 0; index -= 1) {
+          const swapIndex = Math.floor(Math.random() * (index + 1));
+          [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+        }
+        return shuffled;
+      }
+
+      function rebuildBag() {
+        const available = filteredQuestions();
+        cardBag = shuffle(available);
+        bagTopicKey = selectedTopicKey();
+
+        if (cardBag.length > 1 && currentQuestion &&
+          cardBag[cardBag.length - 1] === currentQuestion) {
+          [cardBag[0], cardBag[cardBag.length - 1]] =
+            [cardBag[cardBag.length - 1], cardBag[0]];
+        }
+      }
+
+      function updateCount(eligibleCount) {
+        if (eligibleCount === 0) {
+          cardCount.textContent = "0 cards selected";
+          return;
+        }
+        const cardLabel = eligibleCount === 1 ? "card" : "cards";
+        const remainingLabel = cardBag.length === 1 ? "card" : "cards";
+        cardCount.textContent =
+          `${eligibleCount} eligible ${cardLabel} · ${cardBag.length} ${remainingLabel} left`;
       }
 
       function showRandomQuestion() {
         const available = filteredQuestions();
         updateCount(available.length);
-        if (available.length === 0) return;
+        if (available.length === 0) {
+          cardBag = [];
+          bagTopicKey = selectedTopicKey();
+          currentQuestion = null;
+          questionElement.textContent = "Choose at least one topic.";
+          topicBadge.textContent = "No topics selected";
+          answerElement.textContent = "";
+          answerElement.hidden = true;
+          revealButton.disabled = true;
+          revealButton.textContent = "Reveal answer";
+          revealButton.setAttribute("aria-pressed", "false");
+          revealButton.setAttribute("aria-expanded", "false");
+          nextButton.disabled = true;
+          flashcard.style.setProperty("--topic-glow", defaultGlow[0]);
+          flashcard.style.setProperty("--topic-glow-soft", defaultGlow[1]);
+          flashcard.style.setProperty("--topic-glow-mid", defaultGlow[2]);
+          return;
+        }
 
-        currentQuestion = available[Math.floor(Math.random() * available.length)];
+        nextButton.disabled = false;
+        if (bagTopicKey !== selectedTopicKey() || cardBag.length === 0) {
+          rebuildBag();
+        }
+
+        currentQuestion = cardBag.pop();
+        updateCount(available.length);
         questionElement.textContent = currentQuestion.question;
         topicBadge.textContent = currentQuestion.topic;
         const [glow, glowSoft, glowMid] = topicGlows[currentQuestion.topic] || defaultGlow;
@@ -698,6 +834,8 @@
         answerElement.hidden = true;
         revealButton.disabled = false;
         revealButton.textContent = "Reveal answer";
+        revealButton.setAttribute("aria-pressed", "false");
+        revealButton.setAttribute("aria-expanded", "false");
       }
 
       async function loadQuestions() {
@@ -718,13 +856,30 @@
           questions = data;
           const topics = [...new Set(questions.map((item) => item.topic))].sort();
           for (const topic of topics) {
-            const option = document.createElement("option");
-            option.value = topic;
-            option.textContent = topic;
-            topicFilter.append(option);
+            const label = document.createElement("label");
+            label.className = "topic-chip";
+
+            const checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.value = topic;
+            checkbox.checked = true;
+            checkbox.addEventListener("change", () => {
+              if (checkbox.checked) selectedTopics.add(topic);
+              else selectedTopics.delete(topic);
+              rebuildBag();
+              showRandomQuestion();
+            });
+
+            const text = document.createElement("span");
+            text.textContent = topic;
+            label.append(checkbox, text);
+            topicOptions.append(label);
+            selectedTopics.add(topic);
           }
-          topicFilter.disabled = false;
+          allTopicsButton.disabled = false;
+          noneTopicsButton.disabled = false;
           nextButton.disabled = false;
+          rebuildBag();
           showRandomQuestion();
         } catch (error) {
           questionElement.textContent = "Oops! The science cards couldn't load.";
@@ -737,13 +892,34 @@
 
       revealButton.addEventListener("click", () => {
         if (!currentQuestion) return;
-        answerElement.hidden = false;
-        revealButton.disabled = true;
-        revealButton.textContent = "Answer revealed ✓";
+        const revealing = answerElement.hidden;
+        answerElement.hidden = !revealing;
+        revealButton.textContent = revealing ? "Hide answer" : "Reveal answer";
+        revealButton.setAttribute("aria-pressed", String(revealing));
+        revealButton.setAttribute("aria-expanded", String(revealing));
       });
 
       nextButton.addEventListener("click", showRandomQuestion);
-      topicFilter.addEventListener("change", showRandomQuestion);
+
+      allTopicsButton.addEventListener("click", () => {
+        const checkboxes = topicOptions.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach((checkbox) => {
+          checkbox.checked = true;
+          selectedTopics.add(checkbox.value);
+        });
+        rebuildBag();
+        showRandomQuestion();
+      });
+
+      noneTopicsButton.addEventListener("click", () => {
+        const checkboxes = topicOptions.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach((checkbox) => {
+          checkbox.checked = false;
+        });
+        selectedTopics.clear();
+        rebuildBag();
+        showRandomQuestion();
+      });
 
       loadQuestions();
     </script>

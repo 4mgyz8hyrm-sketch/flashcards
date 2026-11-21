@@ -25,5 +25,6 @@ relative JSON URL so it also works when published under a project-site path.
 
 ## Update the question bank
 
-Edit `questions.json`. Each entry must have a `topic`, `question`, and `answer`
-string. The topic filter is populated from the topics present in the file.
+Edit `questions.json`. Each entry must have `topic`, `question`, `answer`, and
+`distractor` strings. The distractor is the incorrect test choice for that
+question. The topic filter is populated from the topics present in the file.

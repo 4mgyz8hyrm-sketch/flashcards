@@ -2,1001 +2,1201 @@
   {
     "topic": "Skills",
     "question": "What is a hazard in a science practical?",
-    "answer": "Something that could cause harm, such as a hot flame or broken glass."
+    "answer": "Something that could cause harm, such as a hot flame or broken glass.",
+    "distractor": "A tool used to measure how quickly a reaction happens."
   },
   {
     "topic": "Skills",
     "question": "What does risk describe?",
-    "answer": "The chance that a hazard will cause harm, and how serious that harm could be."
+    "answer": "The chance that a hazard will cause harm, and how serious that harm could be.",
+    "distractor": "The amount of damage an accident would cause, regardless of its likelihood."
   },
   {
     "topic": "Skills",
     "question": "Why should you wear safety goggles when a practical could splash?",
-    "answer": "To protect your eyes from splashes or flying particles."
+    "answer": "To protect your eyes from splashes or flying particles.",
+    "distractor": "To keep your clothes clean if liquid spills."
   },
   {
     "topic": "Skills",
     "question": "Why should long hair be tied back during practical work?",
-    "answer": "So it cannot fall into a flame, chemicals, or equipment."
+    "answer": "So it cannot fall into a flame, chemicals, or equipment.",
+    "distractor": "So it stays out of the way while carrying books between lessons."
   },
   {
     "topic": "Skills",
     "question": "What should you do if you spill a chemical in a lesson?",
-    "answer": "Tell your teacher straight away and follow their instructions; do not try to clean it up without permission."
+    "answer": "Tell your teacher straight away and follow their instructions; do not try to clean it up without permission.",
+    "distractor": "Wipe it up immediately with paper towels before anyone notices."
   },
   {
     "topic": "Skills",
     "question": "What is the independent variable in an investigation?",
-    "answer": "The variable that you deliberately change."
+    "answer": "The variable that you deliberately change.",
+    "distractor": "The variable you measure to see the outcome of an investigation."
   },
   {
     "topic": "Skills",
     "question": "What is the dependent variable?",
-    "answer": "The variable that you measure or observe as the result."
+    "answer": "The variable that you measure or observe as the result.",
+    "distractor": "The variable you deliberately change to test its effect."
   },
   {
     "topic": "Skills",
     "question": "What are control variables?",
-    "answer": "The variables you keep the same so they do not affect the result."
+    "answer": "The variables you keep the same so they do not affect the result.",
+    "distractor": "The measurements you take at the end of an investigation."
   },
   {
     "topic": "Skills",
     "question": "What makes an investigation a fair test?",
-    "answer": "You change one independent variable, measure the outcome, and keep other relevant variables the same."
+    "answer": "You change one independent variable, measure the outcome, and keep other relevant variables the same.",
+    "distractor": "You change several variables at once and compare the final results."
   },
   {
     "topic": "Skills",
     "question": "What is a scientific prediction?",
-    "answer": "A statement about what you expect to happen, based on a question or scientific idea."
+    "answer": "A statement about what you expect to happen, based on a question or scientific idea.",
+    "distractor": "A record of what happened after an experiment has finished."
   },
   {
     "topic": "Skills",
     "question": "Why repeat measurements in an investigation?",
-    "answer": "Repeats help you spot unusual results and make the overall result more reliable."
+    "answer": "Repeats help you spot unusual results and make the overall result more reliable.",
+    "distractor": "Repeats make the result less reliable because they add more data."
   },
   {
     "topic": "Skills",
     "question": "A pupil measures 3 cm, 4 cm and 5 cm. What is the mean?",
-    "answer": "4 cm: add the measurements and divide by three."
+    "answer": "4 cm: add the measurements and divide by three.",
+    "distractor": "3 cm: choose the smallest measurement as the mean."
   },
   {
     "topic": "Skills",
     "question": "What should a heading in a results table include for a measured variable?",
-    "answer": "The name of the variable and its unit, for example time (s)."
+    "answer": "The name of the variable and its unit, for example time (s).",
+    "distractor": "The name of the equipment and the date the measurement was taken."
   },
   {
     "topic": "Skills",
     "question": "Which graph is usually suitable for showing how a continuous measurement changes?",
-    "answer": "A line graph, with the independent variable on the horizontal axis."
+    "answer": "A line graph, with the independent variable on the horizontal axis.",
+    "distractor": "A bar chart, because continuous measurements are shown as separate bars."
   },
   {
     "topic": "Skills",
     "question": "Which graph is usually suitable for comparing separate categories?",
-    "answer": "A bar chart, with a gap between the bars."
+    "answer": "A bar chart, with a gap between the bars.",
+    "distractor": "A line graph with no gaps, because categories change continuously."
   },
   {
     "topic": "Skills",
     "question": "What is an anomalous result?",
-    "answer": "A result that is noticeably different from the other results and does not fit the pattern."
+    "answer": "A result that is noticeably different from the other results and does not fit the pattern.",
+    "distractor": "A result that is exactly the same as every other measurement."
   },
   {
     "topic": "Skills",
     "question": "What should a conclusion use to answer an investigation question?",
-    "answer": "The pattern in the results, including relevant measurements as evidence."
+    "answer": "The pattern in the results, including relevant measurements as evidence.",
+    "distractor": "A prediction made before collecting any results, without using evidence."
   },
   {
     "topic": "Skills",
     "question": "What does a reliable result mean?",
-    "answer": "It is consistent when the investigation is repeated under the same conditions."
+    "answer": "It is consistent when the investigation is repeated under the same conditions.",
+    "distractor": "It gives the same answer even when the method and conditions are changed."
   },
   {
     "topic": "Skills",
     "question": "How could you improve reliability if repeated results vary a lot?",
-    "answer": "Take more repeat measurements, check the method, and compare the results for anomalies."
+    "answer": "Take more repeat measurements, check the method, and compare the results for anomalies.",
+    "distractor": "Discard every result and change the independent variable each time."
   },
   {
     "topic": "Skills",
     "question": "Why should you choose measuring equipment with a suitable scale?",
-    "answer": "It helps you measure the variable clearly and record results at an appropriate level of detail."
+    "answer": "It helps you measure the variable clearly and record results at an appropriate level of detail.",
+    "distractor": "It makes the equipment display a larger number than the true measurement."
   },
   {
     "topic": "Organisation",
     "question": "What is the smallest unit that can carry out the processes of life?",
-    "answer": "A cell."
+    "answer": "A cell.",
+    "distractor": "The smallest part of an organism that can be seen with the naked eye."
   },
   {
     "topic": "Organisation",
     "question": "What does the acronym MRS GREN help you remember?",
-    "answer": "Seven life processes: movement, respiration, sensitivity, growth, reproduction, excretion and nutrition."
+    "answer": "Seven life processes: movement, respiration, sensitivity, growth, reproduction, excretion and nutrition.",
+    "distractor": "The names of seven parts commonly found in an animal cell."
   },
   {
     "topic": "Organisation",
     "question": "Which life process releases energy from food inside cells?",
-    "answer": "Respiration. It is a chemical process in cells, not the same thing as breathing."
+    "answer": "Respiration. It is a chemical process in cells, not the same thing as breathing.",
+    "distractor": "Breathing air in and out of the lungs to supply oxygen."
   },
   {
     "topic": "Organisation",
     "question": "How is breathing different from respiration?",
-    "answer": "Breathing moves air into and out of the lungs; respiration is a chemical process in cells that releases energy from food."
+    "answer": "Breathing moves air into and out of the lungs; respiration is a chemical process in cells that releases energy from food.",
+    "distractor": "Breathing is a chemical reaction that releases energy inside cells."
   },
   {
     "topic": "Organisation",
     "question": "Which life process means an organism can move or move parts of itself?",
-    "answer": "Movement."
+    "answer": "Movement.",
+    "distractor": "The process by which an organism takes in food."
   },
   {
     "topic": "Organisation",
     "question": "What does sensitivity mean as a life process?",
-    "answer": "Detecting and responding to changes in the surroundings."
+    "answer": "Detecting and responding to changes in the surroundings.",
+    "distractor": "Moving from one place to another, without detecting a stimulus."
   },
   {
     "topic": "Organisation",
     "question": "What does growth mean in a living organism?",
-    "answer": "A permanent increase in size and dry mass, often as cells grow and divide."
+    "answer": "A permanent increase in size and dry mass, often as cells grow and divide.",
+    "distractor": "The ability to make offspring that are identical in size to an adult."
   },
   {
     "topic": "Organisation",
     "question": "What is reproduction?",
-    "answer": "The process by which living organisms produce offspring."
+    "answer": "The process by which living organisms produce offspring.",
+    "distractor": "The process by which food is broken into smaller soluble molecules."
   },
   {
     "topic": "Organisation",
     "question": "What is excretion?",
-    "answer": "Removing waste products made by the body, such as carbon dioxide from respiration."
+    "answer": "Removing waste products made by the body, such as carbon dioxide from respiration.",
+    "distractor": "Taking useful nutrients from food into the blood."
   },
   {
     "topic": "Organisation",
     "question": "What does nutrition provide for living organisms?",
-    "answer": "Materials and energy needed for life processes, growth and repair."
+    "answer": "Materials and energy needed for life processes, growth and repair.",
+    "distractor": "A way of removing undigested food from the body."
   },
   {
     "topic": "Organisation",
     "question": "Put these levels of organisation in order, from smallest to largest: organ, organism, cell, organ system, tissue.",
-    "answer": "Cell, tissue, organ, organ system, organism."
+    "answer": "Cell, tissue, organ, organ system, organism.",
+    "distractor": "Cell, organ, tissue, organism, organ system."
   },
   {
     "topic": "Organisation",
     "question": "What is a tissue?",
-    "answer": "A group of similar cells working together to carry out a particular function."
+    "answer": "A group of similar cells working together to carry out a particular function.",
+    "distractor": "A group of different organs carrying out a body function."
   },
   {
     "topic": "Organisation",
     "question": "What is an organ?",
-    "answer": "A structure made of different tissues working together to carry out a function."
+    "answer": "A structure made of different tissues working together to carry out a function.",
+    "distractor": "A group of identical organs that work independently."
   },
   {
     "topic": "Organisation",
     "question": "What is an organ system?",
-    "answer": "A group of organs working together to carry out a major body function."
+    "answer": "A group of organs working together to carry out a major body function.",
+    "distractor": "A single cell carrying out every function of an organism."
   },
   {
     "topic": "Organisation",
     "question": "What do we call an individual living thing?",
-    "answer": "An organism."
+    "answer": "An organism.",
+    "distractor": "A group of organisms of different species living together."
   },
   {
     "topic": "Organisation",
     "question": "Why do organisms have specialised cells?",
-    "answer": "Different cell structures help different cells carry out particular jobs."
+    "answer": "Different cell structures help different cells carry out particular jobs.",
+    "distractor": "All cells have the same structures because they do the same jobs."
   },
   {
     "topic": "Organisation",
     "question": "Which cell structure contains genetic material and helps control cell activities?",
-    "answer": "The nucleus."
+    "answer": "The nucleus.",
+    "distractor": "The cell membrane, which stores the cell’s genetic instructions."
   },
   {
     "topic": "Organisation",
     "question": "What is the job of a cell membrane?",
-    "answer": "It forms the cell's boundary and controls what enters and leaves."
+    "answer": "It forms the cell's boundary and controls what enters and leaves.",
+    "distractor": "It controls cell activities and contains the jelly-like cytoplasm."
   },
   {
     "topic": "Organisation",
     "question": "What is cytoplasm?",
-    "answer": "The jelly-like material inside a cell where many chemical reactions take place."
+    "answer": "The jelly-like material inside a cell where many chemical reactions take place.",
+    "distractor": "A liquid inside a cell that controls what enters and leaves it."
   },
   {
     "topic": "Organisation",
     "question": "What does the cell wall do in a plant cell?",
-    "answer": "It supports and strengthens the cell; it is made mainly of cellulose."
+    "answer": "It supports and strengthens the cell; it is made mainly of cellulose.",
+    "distractor": "It absorbs sunlight so the plant cell can carry out photosynthesis."
   },
   {
     "topic": "Atoms",
     "question": "How are particles arranged in a solid?",
-    "answer": "They are close together in a fixed arrangement and vibrate around fixed positions."
+    "answer": "They are close together in a fixed arrangement and vibrate around fixed positions.",
+    "distractor": "They are spread far apart and move freely around one another."
   },
   {
     "topic": "Atoms",
     "question": "How do particles move in a liquid?",
-    "answer": "They are close together but can move past one another."
+    "answer": "They are close together but can move past one another.",
+    "distractor": "They are far apart and move quickly in random directions."
   },
   {
     "topic": "Atoms",
     "question": "How are particles arranged in a gas?",
-    "answer": "They are far apart and move quickly in random directions."
+    "answer": "They are far apart and move quickly in random directions.",
+    "distractor": "They are packed closely in fixed positions and only vibrate."
   },
   {
     "topic": "Atoms",
     "question": "Why does a solid keep its shape?",
-    "answer": "Its particles are held in fixed positions and only vibrate."
+    "answer": "Its particles are held in fixed positions and only vibrate.",
+    "distractor": "Its particles move freely and spread out to fill any container."
   },
   {
     "topic": "Atoms",
     "question": "Why does a liquid take the shape of its container but keep nearly the same volume?",
-    "answer": "Its particles can move past each other but remain close together."
+    "answer": "Its particles can move past each other but remain close together.",
+    "distractor": "Its particles are far apart and can be pushed into a smaller volume."
   },
   {
     "topic": "Atoms",
     "question": "Why can a gas be compressed more easily than a liquid?",
-    "answer": "Gas particles are far apart, so they can be pushed closer together."
+    "answer": "Gas particles are far apart, so they can be pushed closer together.",
+    "distractor": "Its particles are touching, leaving almost no empty space to compress."
   },
   {
     "topic": "Atoms",
     "question": "What is melting?",
-    "answer": "The change of state from a solid to a liquid when energy is transferred to it."
+    "answer": "The change of state from a solid to a liquid when energy is transferred to it.",
+    "distractor": "The change of state from a liquid to a gas at its boiling point."
   },
   {
     "topic": "Atoms",
     "question": "What is freezing?",
-    "answer": "The change of state from a liquid to a solid when energy is transferred away."
+    "answer": "The change of state from a liquid to a solid when energy is transferred away.",
+    "distractor": "The change of state from a gas to a liquid as it cools."
   },
   {
     "topic": "Atoms",
     "question": "What is evaporation?",
-    "answer": "Particles at the surface of a liquid escape to form a gas; it can happen below the boiling point."
+    "answer": "Particles at the surface of a liquid escape to form a gas; it can happen below the boiling point.",
+    "distractor": "The change from a gas into a liquid when particles absorb energy."
   },
   {
     "topic": "Atoms",
     "question": "How is boiling different from evaporation?",
-    "answer": "Boiling happens throughout a liquid at its boiling point; evaporation happens at the surface and can occur at lower temperatures."
+    "answer": "Boiling happens throughout a liquid at its boiling point; evaporation happens at the surface and can occur at lower temperatures.",
+    "distractor": "Boiling occurs only at the surface and below the boiling point."
   },
   {
     "topic": "Atoms",
     "question": "What is condensation?",
-    "answer": "The change of state from a gas to a liquid, usually when energy is transferred away."
+    "answer": "The change of state from a gas to a liquid, usually when energy is transferred away.",
+    "distractor": "The change of state from a liquid to a solid when energy is added."
   },
   {
     "topic": "Atoms",
     "question": "What is diffusion?",
-    "answer": "The net spreading of particles from an area of higher concentration to an area of lower concentration."
+    "answer": "The net spreading of particles from an area of higher concentration to an area of lower concentration.",
+    "distractor": "The net movement of particles from low concentration to high concentration."
   },
   {
     "topic": "Atoms",
     "question": "Why can a smell spread across a room?",
-    "answer": "Smell particles diffuse through the air as the gas particles move randomly."
+    "answer": "Smell particles diffuse through the air as the gas particles move randomly.",
+    "distractor": "Smell particles travel from a lower concentration to a higher concentration through the room."
   },
   {
     "topic": "Atoms",
     "question": "Why does diffusion usually happen faster at a higher temperature?",
-    "answer": "Particles have more energy and move faster, so they spread out more quickly."
+    "answer": "Particles have more energy and move faster, so they spread out more quickly.",
+    "distractor": "Particles slow down because they gain less energy at higher temperatures."
   },
   {
     "topic": "Atoms",
     "question": "What causes pressure from a gas inside a container?",
-    "answer": "Gas particles colliding with the walls of the container."
+    "answer": "Gas particles colliding with the walls of the container.",
+    "distractor": "The weight of the gas pressing down on the bottom of its container."
   },
   {
     "topic": "Atoms",
     "question": "What happens to gas pressure when a gas is squeezed into a smaller volume at the same temperature?",
-    "answer": "The pressure increases because particles hit the container walls more often."
+    "answer": "The pressure increases because particles hit the container walls more often.",
+    "distractor": "The pressure decreases because the particles have less room to move."
   },
   {
     "topic": "Atoms",
     "question": "What happens to the pressure of a gas in a sealed, fixed-volume container when it is heated?",
-    "answer": "The pressure increases because the particles move faster and collide with the walls more often and with greater force."
+    "answer": "The pressure increases because the particles move faster and collide with the walls more often and with greater force.",
+    "distractor": "The pressure falls because heating makes the particles smaller."
   },
   {
     "topic": "Atoms",
     "question": "During melting, what happens to the particles of a substance?",
-    "answer": "Energy transferred to the substance helps particles move out of their fixed positions; the particles themselves do not melt."
+    "answer": "Energy transferred to the substance helps particles move out of their fixed positions; the particles themselves do not melt.",
+    "distractor": "The particles themselves expand and become larger during melting."
   },
   {
     "topic": "Atoms",
     "question": "What happens to the temperature of a pure substance while it is changing state at a steady pressure?",
-    "answer": "It stays at the change-of-state temperature until the change is complete."
+    "answer": "It stays at the change-of-state temperature until the change is complete.",
+    "distractor": "Its temperature rises steadily until every particle has changed state."
   },
   {
     "topic": "Atoms",
     "question": "What does the particle model say matter is made of?",
-    "answer": "Tiny particles that are always moving; their spacing and movement help explain the properties of solids, liquids and gases."
+    "answer": "Tiny particles that are always moving; their spacing and movement help explain the properties of solids, liquids and gases.",
+    "distractor": "Matter is made of continuous material with no separate particles."
   },
   {
     "topic": "Biological Systems",
     "question": "What is the main job of the respiratory system?",
-    "answer": "To take oxygen into the body and remove carbon dioxide through gas exchange in the lungs."
+    "answer": "To take oxygen into the body and remove carbon dioxide through gas exchange in the lungs.",
+    "distractor": "To pump oxygen-rich blood from the lungs to the rest of the body."
   },
   {
     "topic": "Biological Systems",
     "question": "What is the main job of the circulatory system?",
-    "answer": "To move blood around the body, transporting substances such as oxygen, nutrients and waste products."
+    "answer": "To move blood around the body, transporting substances such as oxygen, nutrients and waste products.",
+    "distractor": "To break down food into nutrients and absorb them into the blood."
   },
   {
     "topic": "Biological Systems",
     "question": "What does the heart do?",
-    "answer": "It pumps blood around the body."
+    "answer": "It pumps blood around the body.",
+    "distractor": "It filters waste from the blood and produces urine."
   },
   {
     "topic": "Biological Systems",
     "question": "In which direction do arteries carry blood?",
-    "answer": "Away from the heart."
+    "answer": "Away from the heart.",
+    "distractor": "Towards the heart, because arteries contain valves that pull blood back."
   },
   {
     "topic": "Biological Systems",
     "question": "In which direction do veins carry blood?",
-    "answer": "Towards the heart."
+    "answer": "Towards the heart.",
+    "distractor": "Away from the heart, carrying blood from the heart to the tissues."
   },
   {
     "topic": "Biological Systems",
     "question": "Where does exchange of substances between blood and body cells mainly take place?",
-    "answer": "Across the thin walls of capillaries."
+    "answer": "Across the thin walls of capillaries.",
+    "distractor": "Inside the heart chambers, where blood is stored between beats."
   },
   {
     "topic": "Biological Systems",
     "question": "Where does gas exchange happen in the lungs?",
-    "answer": "Across the walls of tiny air sacs called alveoli."
+    "answer": "Across the walls of tiny air sacs called alveoli.",
+    "distractor": "Inside the windpipe, where oxygen and carbon dioxide mix."
   },
   {
     "topic": "Biological Systems",
     "question": "What happens to the chest cavity when you breathe in?",
-    "answer": "It gets larger as the diaphragm contracts and moves down; air is drawn into the lungs."
+    "answer": "It gets larger as the diaphragm contracts and moves down; air is drawn into the lungs.",
+    "distractor": "The diaphragm relaxes and moves down, making the chest cavity larger."
   },
   {
     "topic": "Biological Systems",
     "question": "What is digestion?",
-    "answer": "Breaking large food molecules into smaller soluble molecules that can be absorbed."
+    "answer": "Breaking large food molecules into smaller soluble molecules that can be absorbed.",
+    "distractor": "Absorbing small food molecules before they have been digested."
   },
   {
     "topic": "Biological Systems",
     "question": "What does the stomach do during digestion?",
-    "answer": "It churns food and mixes it with acid and digestive enzymes."
+    "answer": "It churns food and mixes it with acid and digestive enzymes.",
+    "distractor": "It absorbs most water and forms faeces from undigested material."
   },
   {
     "topic": "Biological Systems",
     "question": "Where are most digested nutrients absorbed into the blood?",
-    "answer": "In the small intestine."
+    "answer": "In the small intestine.",
+    "distractor": "In the stomach, where acid turns nutrients directly into blood."
   },
   {
     "topic": "Biological Systems",
     "question": "What is one main job of the large intestine?",
-    "answer": "It absorbs water from undigested material."
+    "answer": "It absorbs water from undigested material.",
+    "distractor": "It absorbs digested nutrients into the blood."
   },
   {
     "topic": "Biological Systems",
     "question": "What does bile do in digestion?",
-    "answer": "It helps neutralise acidic food from the stomach and breaks large fat droplets into smaller droplets."
+    "answer": "It helps neutralise acidic food from the stomach and breaks large fat droplets into smaller droplets.",
+    "distractor": "They make blood cells and digest food inside the chest."
   },
   {
     "topic": "Biological Systems",
     "question": "What are two important jobs of the skeleton?",
-    "answer": "It supports the body and protects organs; it also provides a framework for movement."
+    "answer": "It supports the body and protects organs; it also provides a framework for movement.",
+    "distractor": "The ribs."
   },
   {
     "topic": "Biological Systems",
     "question": "Which bones protect the brain?",
-    "answer": "The skull."
+    "answer": "The skull.",
+    "distractor": "Muscles push bones away from joints when they relax."
   },
   {
     "topic": "Biological Systems",
     "question": "How do muscles move bones at a joint?",
-    "answer": "Muscles contract and pull on bones; they often work in opposing pairs."
+    "answer": "Muscles contract and pull on bones; they often work in opposing pairs.",
+    "distractor": "It is a place where muscles attach to skin, but bones do not meet."
   },
   {
     "topic": "Biological Systems",
     "question": "What is the job of a joint?",
-    "answer": "It is where bones meet and may allow parts of the skeleton to move."
+    "answer": "It is where bones meet and may allow parts of the skeleton to move.",
+    "distractor": "The brain and the heart."
   },
   {
     "topic": "Biological Systems",
     "question": "What are the main parts of the central nervous system?",
-    "answer": "The brain and spinal cord."
+    "answer": "The brain and spinal cord.",
+    "distractor": "They pump blood around the body and absorb oxygen from the lungs."
   },
   {
     "topic": "Biological Systems",
     "question": "What do the kidneys do?",
-    "answer": "They filter the blood, removing wastes and helping control the body's water balance."
+    "answer": "They filter the blood, removing wastes and helping control the body's water balance.",
+    "distractor": "The circulatory system carries carbon dioxide to the lungs, which send it to muscles."
   },
   {
     "topic": "Biological Systems",
     "question": "How do the respiratory and circulatory systems work together during exercise?",
-    "answer": "The lungs add oxygen to the blood, and the circulatory system carries it to working muscles."
+    "answer": "The lungs add oxygen to the blood, and the circulatory system carries it to working muscles.",
+    "distractor": "They exchange food between the lungs and the heart."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "What is a mixture?",
-    "answer": "Two or more substances together that are not chemically joined to each other."
+    "answer": "Two or more substances together that are not chemically joined to each other.",
+    "distractor": "Two or more elements chemically joined to form a pure substance."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "What is a compound?",
-    "answer": "A pure substance made when atoms of two or more elements are chemically joined."
+    "answer": "A pure substance made when atoms of two or more elements are chemically joined.",
+    "distractor": "A mixture of two substances that have not chemically joined."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "What is an element?",
-    "answer": "A pure substance made from only one type of atom."
+    "answer": "A pure substance made from only one type of atom.",
+    "distractor": "A mixture of different types of atoms that are chemically bonded."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "What is a solution?",
-    "answer": "A mixture formed when a solute dissolves in a solvent."
+    "answer": "A mixture formed when a solute dissolves in a solvent.",
+    "distractor": "A pure substance made by chemically joining a solute and a solvent."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "What is the solute in a solution?",
-    "answer": "The substance that dissolves."
+    "answer": "The substance that dissolves.",
+    "distractor": "The liquid that dissolves another substance to form a solution."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "What is the solvent in a solution?",
-    "answer": "The liquid that dissolves the solute."
+    "answer": "The liquid that dissolves the solute.",
+    "distractor": "The solid that settles out because it cannot dissolve in the liquid."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "What does soluble mean?",
-    "answer": "Able to dissolve in a particular solvent."
+    "answer": "Able to dissolve in a particular solvent.",
+    "distractor": "Unable to dissolve in any liquid, including water."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "How can you separate an insoluble solid from a liquid?",
-    "answer": "Use filtration: the solid is trapped by the filter while the liquid passes through."
+    "answer": "Use filtration: the solid is trapped by the filter while the liquid passes through.",
+    "distractor": "Use evaporation: heat the mixture until the solid turns into vapour."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "What is the residue in filtration?",
-    "answer": "The insoluble solid left on the filter paper."
+    "answer": "The insoluble solid left on the filter paper.",
+    "distractor": "The liquid collected after it has passed through the filter paper."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "What is the filtrate?",
-    "answer": "The liquid that passes through the filter paper."
+    "answer": "The liquid that passes through the filter paper.",
+    "distractor": "The solid that passes through the filter paper with the liquid."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "How can you recover dissolved salt from salt water?",
-    "answer": "Evaporate some or all of the water, leaving salt behind; crystallisation can be used to form crystals."
+    "answer": "Evaporate some or all of the water, leaving salt behind; crystallisation can be used to form crystals.",
+    "distractor": "Freeze the salt water so the salt forms a solid layer on top."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "How does simple distillation separate water from a salt solution?",
-    "answer": "Water evaporates, then the vapour is cooled and condensed into a separate container; the salt stays behind."
+    "answer": "Water evaporates, then the vapour is cooled and condensed into a separate container; the salt stays behind.",
+    "distractor": "The salt evaporates first, then water vapour is cooled into the receiver."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "What does chromatography help separate?",
-    "answer": "Different dissolved substances, such as the dyes in ink."
+    "answer": "Different dissolved substances, such as the dyes in ink.",
+    "distractor": "Different substances with different boiling points, such as salt and water."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "Why is pencil used to draw the baseline in paper chromatography?",
-    "answer": "Pencil graphite does not dissolve and travel with the solvent like ink could."
+    "answer": "Pencil graphite does not dissolve and travel with the solvent like ink could.",
+    "distractor": "Ink is used because it cannot dissolve or move up the paper."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "What property does sieving use to separate solids?",
-    "answer": "The different sizes of their particles."
+    "answer": "The different sizes of their particles.",
+    "distractor": "The different melting points of the solids."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "How can a magnet separate iron filings from sand?",
-    "answer": "Iron is attracted to the magnet but sand is not, so the two solids can be separated."
+    "answer": "Iron is attracted to the magnet but sand is not, so the two solids can be separated.",
+    "distractor": "Sand is attracted to the magnet while iron remains in the pile."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "How could you separate a mixture of sand and salt?",
-    "answer": "Add water to dissolve the salt, filter out the sand, then evaporate the water from the filtrate."
+    "answer": "Add water to dissolve the salt, filter out the sand, then evaporate the water from the filtrate.",
+    "distractor": "Filter the dry mixture first, then use a magnet to dissolve the salt."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "What is crystallisation used for?",
-    "answer": "Obtaining crystals of a dissolved solid from its solution."
+    "answer": "Obtaining crystals of a dissolved solid from its solution.",
+    "distractor": "Separating two liquids that dissolve completely into one clear layer."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "Is dissolving sugar in water a chemical reaction?",
-    "answer": "No. It is a physical change: the sugar particles spread through the water and can be recovered by evaporating the water."
+    "answer": "No. It is a physical change: the sugar particles spread through the water and can be recovered by evaporating the water.",
+    "distractor": "Yes. Dissolving sugar creates a new substance that cannot be separated."
   },
   {
     "topic": "Solutions, Compounds and Mixtures",
     "question": "Why can a separating funnel be used for oil and water?",
-    "answer": "They are immiscible liquids that form separate layers, so the lower layer can be drained off."
+    "answer": "They are immiscible liquids that form separate layers, so the lower layer can be drained off.",
+    "distractor": "Oil and water mix completely, forming a single liquid with no layers."
   },
   {
     "topic": "Astronomy",
     "question": "What is a star?",
-    "answer": "A very large, hot ball of gas that gives out light; the Sun is the star nearest Earth."
+    "answer": "A very large, hot ball of gas that gives out light; the Sun is the star nearest Earth.",
+    "distractor": "A small rocky object that orbits a planet and gives out its own light."
   },
   {
     "topic": "Astronomy",
     "question": "What is a planet?",
-    "answer": "A large object that orbits a star and does not make its own light."
+    "answer": "A large object that orbits a star and does not make its own light.",
+    "distractor": "A ball of gas that gives out light and orbits a planet."
   },
   {
     "topic": "Astronomy",
     "question": "What is the Moon in relation to Earth?",
-    "answer": "Earth's natural satellite."
+    "answer": "Earth's natural satellite.",
+    "distractor": "A small planet that orbits the Sun independently of Earth."
   },
   {
     "topic": "Astronomy",
     "question": "What keeps planets in orbit around the Sun?",
-    "answer": "The Sun's gravitational pull."
+    "answer": "The Sun's gravitational pull.",
+    "distractor": "Earth’s natural star, which produces its own light."
   },
   {
     "topic": "Astronomy",
     "question": "What causes day and night on Earth?",
-    "answer": "Earth rotates on its axis; the side facing the Sun has day and the side facing away has night."
+    "answer": "Earth rotates on its axis; the side facing the Sun has day and the side facing away has night.",
+    "distractor": "The Moon’s gravitational pull, which pushes planets into circular paths."
   },
   {
     "topic": "Astronomy",
     "question": "Why does the Moon appear to change shape during the month?",
-    "answer": "As the Moon orbits Earth, we see different portions of its sunlit half."
+    "answer": "As the Moon orbits Earth, we see different portions of its sunlit half.",
+    "distractor": "Earth travels around the Sun once each day, causing day and night."
   },
   {
     "topic": "Astronomy",
     "question": "What causes a new Moon phase?",
-    "answer": "The Moon's sunlit side mostly faces away from Earth, so the near side looks dark."
+    "answer": "The Moon's sunlit side mostly faces away from Earth, so the near side looks dark.",
+    "distractor": "Earth’s shadow covers different parts of the Moon every night."
   },
   {
     "topic": "Astronomy",
     "question": "What do we see during a full Moon?",
-    "answer": "Nearly all of the Moon's near side is lit by the Sun."
+    "answer": "Nearly all of the Moon's near side is lit by the Sun.",
+    "distractor": "The Moon moves into Earth’s shadow once each month."
   },
   {
     "topic": "Astronomy",
     "question": "What does waxing mean for the Moon's phase?",
-    "answer": "The visible lit portion is getting larger."
+    "answer": "The visible lit portion is getting larger.",
+    "distractor": "The Moon’s near side is entirely lit while its far side is dark."
   },
   {
     "topic": "Astronomy",
     "question": "What does waning mean for the Moon's phase?",
-    "answer": "The visible lit portion is getting smaller."
+    "answer": "The visible lit portion is getting smaller.",
+    "distractor": "The visible lit portion is getting smaller each night."
   },
   {
     "topic": "Astronomy",
     "question": "About how long is one cycle of Moon phases?",
-    "answer": "About 29.5 days from one new Moon to the next."
+    "answer": "About 29.5 days from one new Moon to the next.",
+    "distractor": "About 365 days, from one Earth orbit around the Sun to the next."
   },
   {
     "topic": "Astronomy",
     "question": "What causes Earth's seasons?",
-    "answer": "Earth's axis is tilted as Earth orbits the Sun, changing the angle and length of sunlight in each hemisphere."
+    "answer": "Earth's axis is tilted as Earth orbits the Sun, changing the angle and length of sunlight in each hemisphere.",
+    "distractor": "Earth’s changing distance from the Sun during its orbit."
   },
   {
     "topic": "Astronomy",
     "question": "Why is it summer in a hemisphere tilted towards the Sun?",
-    "answer": "It receives more direct sunlight and has longer daylight hours."
+    "answer": "It receives more direct sunlight and has longer daylight hours.",
+    "distractor": "It is closer to the Sun and receives less direct sunlight for longer."
   },
   {
     "topic": "Astronomy",
     "question": "Why is it winter in a hemisphere tilted away from the Sun?",
-    "answer": "It receives less direct sunlight and has shorter daylight hours."
+    "answer": "It receives less direct sunlight and has shorter daylight hours.",
+    "distractor": "It receives more direct sunlight and has longer daylight hours."
   },
   {
     "topic": "Astronomy",
     "question": "Are Earth's seasons mainly caused by Earth being closer to the Sun in summer?",
-    "answer": "No. They are caused by Earth's axial tilt; both hemispheres have opposite seasons at the same time."
+    "answer": "No. They are caused by Earth's axial tilt; both hemispheres have opposite seasons at the same time.",
+    "distractor": "Yes. The Northern Hemisphere’s summer occurs when Earth is nearest the Sun."
   },
   {
     "topic": "Astronomy",
     "question": "Name the planets in order outwards from the Sun.",
-    "answer": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune."
+    "answer": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.",
+    "distractor": "Neptune, Uranus, Saturn, Jupiter, Mars, Earth, Venus and Mercury."
   },
   {
     "topic": "Astronomy",
     "question": "Why is Venus hotter on average than Mercury, even though Mercury is closer to the Sun?",
-    "answer": "Venus has a very thick carbon-dioxide atmosphere that traps heat through a strong greenhouse effect."
+    "answer": "Venus has a very thick carbon-dioxide atmosphere that traps heat through a strong greenhouse effect.",
+    "distractor": "Mercury has a thicker carbon-dioxide atmosphere that traps more heat than Venus."
   },
   {
     "topic": "Astronomy",
     "question": "How is Mars's atmosphere different from Earth's?",
-    "answer": "Mars has a much thinner atmosphere, made mostly of carbon dioxide, and its surface is cold and dry."
+    "answer": "Mars has a much thinner atmosphere, made mostly of carbon dioxide, and its surface is cold and dry.",
+    "distractor": "Mars has a thicker nitrogen atmosphere and warmer, wetter surface than Earth."
   },
   {
     "topic": "Astronomy",
     "question": "What is a light-year?",
-    "answer": "The distance light travels in one year; it is a unit of distance, not time."
+    "answer": "The distance light travels in one year; it is a unit of distance, not time.",
+    "distractor": "The time light takes to travel from the Sun to Earth."
   },
   {
     "topic": "Astronomy",
     "question": "Why can sound not travel through the near-vacuum of space?",
-    "answer": "Sound needs particles in a material medium to pass on vibrations, and space has too few particles."
+    "answer": "Sound needs particles in a material medium to pass on vibrations, and space has too few particles.",
+    "distractor": "Sound travels through space as electromagnetic waves, even without particles."
   },
   {
     "topic": "Energy",
     "question": "What is an energy store?",
-    "answer": "A way energy is held in an object or system, such as in a chemical or thermal store."
+    "answer": "A way energy is held in an object or system, such as in a chemical or thermal store.",
+    "distractor": "A measurement of how fast energy moves from one object to another."
   },
   {
     "topic": "Energy",
     "question": "Which energy store increases when an object moves faster?",
-    "answer": "Its kinetic store."
+    "answer": "Its kinetic store.",
+    "distractor": "Its thermal store."
   },
   {
     "topic": "Energy",
     "question": "Which energy store does a raised book have because of its position?",
-    "answer": "A gravitational potential store."
+    "answer": "A gravitational potential store.",
+    "distractor": "A chemical store, because the book is made from paper."
   },
   {
     "topic": "Energy",
     "question": "Which energy store increases when a spring is stretched?",
-    "answer": "Its elastic potential store."
+    "answer": "Its elastic potential store.",
+    "distractor": "Its kinetic store."
   },
   {
     "topic": "Energy",
     "question": "What kind of energy store is found in food and fuels?",
-    "answer": "A chemical store."
+    "answer": "A chemical store.",
+    "distractor": "A nuclear store, because springs contain radioactive material."
   },
   {
     "topic": "Energy",
     "question": "What happens to the thermal store of a warm object as it cools?",
-    "answer": "It decreases as energy is transferred to cooler surroundings."
+    "answer": "It decreases as energy is transferred to cooler surroundings.",
+    "distractor": "It increases as energy flows from the cooler surroundings into the object."
   },
   {
     "topic": "Energy",
     "question": "What is an energy transfer pathway?",
-    "answer": "The route by which energy moves from one store to another, such as by heating or electrically."
+    "answer": "The route by which energy moves from one store to another, such as by heating or electrically.",
+    "distractor": "The type of energy store that an object has because it is moving."
   },
   {
     "topic": "Energy",
     "question": "How is energy transferred electrically in a circuit?",
-    "answer": "A current transfers energy from an electrical supply to components in the circuit."
+    "answer": "A current transfers energy from an electrical supply to components in the circuit.",
+    "distractor": "A battery transfers energy to the circuit by heating the wires rather than electrically."
   },
   {
     "topic": "Energy",
     "question": "What is energy transfer by radiation?",
-    "answer": "Energy carried by electromagnetic waves, such as light or infrared radiation."
+    "answer": "Energy carried by electromagnetic waves, such as light or infrared radiation.",
+    "distractor": "Energy carried by moving particles that need a material medium."
   },
   {
     "topic": "Energy",
     "question": "Can infrared radiation transfer energy through a vacuum?",
-    "answer": "Yes. Radiation does not need particles to carry it."
+    "answer": "Yes. Radiation does not need particles to carry it.",
+    "distractor": "No. Infrared radiation requires air particles to carry energy."
   },
   {
     "topic": "Energy",
     "question": "How does conduction transfer thermal energy through a solid?",
-    "answer": "Vibrations and collisions pass energy between neighbouring particles; free electrons also transfer energy in metals."
+    "answer": "Vibrations and collisions pass energy between neighbouring particles; free electrons also transfer energy in metals.",
+    "distractor": "Warm particles rise through the solid and carry energy to its surface."
   },
   {
     "topic": "Energy",
     "question": "How does convection transfer thermal energy in a liquid or gas?",
-    "answer": "Warmer, less dense fluid rises and cooler, denser fluid sinks, creating a circulating current."
+    "answer": "Warmer, less dense fluid rises and cooler, denser fluid sinks, creating a circulating current.",
+    "distractor": "Particles transfer energy as they move in a single direction without circulating."
   },
   {
     "topic": "Energy",
     "question": "How does an electrical lamp transfer energy?",
-    "answer": "Energy is transferred electrically to the lamp and then mainly to the surroundings by light and heating."
+    "answer": "Energy is transferred electrically to the lamp and then mainly to the surroundings by light and heating.",
+    "distractor": "Energy is transferred chemically to the lamp and entirely into sound."
   },
   {
     "topic": "Energy",
     "question": "What energy transfers happen in a loudspeaker?",
-    "answer": "Energy is transferred electrically to the speaker and then by sound, with some also heating the components."
+    "answer": "Energy is transferred electrically to the speaker and then by sound, with some also heating the components.",
+    "distractor": "Energy is transferred mechanically to the speaker and then as light."
   },
   {
     "topic": "Energy",
     "question": "What happens to energy when an electric kettle heats water?",
-    "answer": "Energy is transferred electrically to the kettle and then by heating to the water and some of the surroundings."
+    "answer": "Energy is transferred electrically to the kettle and then by heating to the water and some of the surroundings.",
+    "distractor": "The kettle transfers energy from the water to the electrical supply."
   },
   {
     "topic": "Energy",
     "question": "What does an insulating material do?",
-    "answer": "It reduces the rate of energy transfer, often by heating."
+    "answer": "It reduces the rate of energy transfer, often by heating.",
+    "distractor": "It prevents all energy from entering or leaving an object."
   },
   {
     "topic": "Energy",
     "question": "Why can trapped air help keep a building warm?",
-    "answer": "Air is a poor thermal conductor, and trapping it prevents large convection currents."
+    "answer": "Air is a poor thermal conductor, and trapping it prevents large convection currents.",
+    "distractor": "Air is a good conductor, and trapped air increases convection currents."
   },
   {
     "topic": "Energy",
     "question": "Why do shiny surfaces reduce energy transfer by radiation?",
-    "answer": "They reflect infrared radiation and are poor emitters compared with dull surfaces."
+    "answer": "They reflect infrared radiation and are poor emitters compared with dull surfaces.",
+    "distractor": "They absorb infrared radiation and emit more than dull surfaces."
   },
   {
     "topic": "Energy",
     "question": "What happens to energy in a transfer?",
-    "answer": "Energy is conserved: it moves between stores or spreads to the surroundings, rather than being created or destroyed."
+    "answer": "Energy is conserved: it moves between stores or spreads to the surroundings, rather than being created or destroyed.",
+    "distractor": "Energy disappears from the system whenever it is transferred to the surroundings."
   },
   {
     "topic": "Energy",
     "question": "In which direction does thermal energy transfer between two objects at different temperatures?",
-    "answer": "Overall, it transfers from the hotter object to the cooler object."
+    "answer": "Overall, it transfers from the hotter object to the cooler object.",
+    "distractor": "Overall, it transfers from the cooler object to the hotter object."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What does ecology study?",
-    "answer": "How organisms interact with each other and with their environment."
+    "answer": "How organisms interact with each other and with their environment.",
+    "distractor": "The study of how organisms change the weather and climate."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What is a habitat?",
-    "answer": "The place where an organism lives."
+    "answer": "The place where an organism lives.",
+    "distractor": "The group of organisms of one species living in an area."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What is a population?",
-    "answer": "All the organisms of one species living in an area at the same time."
+    "answer": "All the organisms of one species living in an area at the same time.",
+    "distractor": "All organisms of different species living in an area together."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What is a community?",
-    "answer": "All the populations of different species living and interacting in a habitat."
+    "answer": "All the populations of different species living and interacting in a habitat.",
+    "distractor": "A place containing only the non-living parts of the environment."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What is an ecosystem?",
-    "answer": "A community of organisms and the non-living environment they interact with."
+    "answer": "A community of organisms and the non-living environment they interact with.",
+    "distractor": "A single organism and all the other members of its own species."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What is a producer in a food chain?",
-    "answer": "An organism, usually a green plant or alga, that makes its own food using light energy."
+    "answer": "An organism, usually a green plant or alga, that makes its own food using light energy.",
+    "distractor": "An organism that gets energy by eating other organisms."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What is a consumer?",
-    "answer": "An organism that gets its energy by eating other organisms."
+    "answer": "An organism that gets its energy by eating other organisms.",
+    "distractor": "An organism that makes its own food using light energy."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What is a primary consumer?",
-    "answer": "An organism that feeds directly on a producer."
+    "answer": "An organism that feeds directly on a producer.",
+    "distractor": "An organism that breaks down dead material and waste."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What is a predator?",
-    "answer": "An animal that hunts and eats another animal."
+    "answer": "An animal that hunts and eats another animal.",
+    "distractor": "An animal that is hunted and eaten by another animal."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What is prey?",
-    "answer": "An animal that is hunted and eaten by a predator."
+    "answer": "An animal that is hunted and eaten by a predator.",
+    "distractor": "An animal that hunts and eats another animal."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What do the arrows in a food chain show?",
-    "answer": "The direction energy is transferred: from the organism being eaten to the organism that eats it."
+    "answer": "The direction energy is transferred: from the organism being eaten to the organism that eats it.",
+    "distractor": "The direction in which organisms move to find food."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "How is a food web different from a food chain?",
-    "answer": "A food web shows many connected feeding relationships in a community."
+    "answer": "A food web shows many connected feeding relationships in a community.",
+    "distractor": "A food chain showing one feeding relationship in a habitat."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What do decomposers do?",
-    "answer": "Organisms such as fungi and bacteria break down dead material and waste, returning nutrients to the environment."
+    "answer": "Organisms such as fungi and bacteria break down dead material and waste, returning nutrients to the environment.",
+    "distractor": "They take nutrients from living plants and make their own food using sunlight."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What does interdependence mean in an ecosystem?",
-    "answer": "Different organisms depend on one another for things such as food, shelter or pollination."
+    "answer": "Different organisms depend on one another for things such as food, shelter or pollination.",
+    "distractor": "Organisms in a habitat survive without affecting or relying on one another."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What is an adaptation?",
-    "answer": "A feature or behaviour that helps an organism survive and reproduce in its environment."
+    "answer": "A feature or behaviour that helps an organism survive and reproduce in its environment.",
+    "distractor": "A feature that makes an organism less likely to survive and reproduce."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "How can camouflage help an animal?",
-    "answer": "It can make the animal harder for predators to see, or help it approach prey."
+    "answer": "It can make the animal harder for predators to see, or help it approach prey.",
+    "distractor": "It makes the animal easier for predators to spot in its habitat."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What are organisms competing for in a habitat?",
-    "answer": "Limited resources such as food, water, space, light or mates."
+    "answer": "Limited resources such as food, water, space, light or mates.",
+    "distractor": "Unlimited resources such as food, water, space, light and mates."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "Name two factors that can change the size of an animal population.",
-    "answer": "Examples include food availability, disease, predation, competition and changes in habitat."
+    "answer": "Examples include food availability, disease, predation, competition and changes in habitat.",
+    "distractor": "Examples include body colour, number of legs, and length of a tail."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "What may happen to a prey population if its main predator becomes much less common?",
-    "answer": "The prey population may increase, although other factors such as food and disease also affect it."
+    "answer": "The prey population may increase, although other factors such as food and disease also affect it.",
+    "distractor": "The prey population is certain to fall because fewer predators are hunting."
   },
   {
     "topic": "Ecology and Feeding",
     "question": "Why are pollinating insects important to many flowering plants?",
-    "answer": "They transfer pollen between flowers, helping the plants reproduce."
+    "answer": "They transfer pollen between flowers, helping the plants reproduce.",
+    "distractor": "They eat seeds from flowers, preventing pollen from being transferred."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "What pH values describe an acidic solution?",
-    "answer": "A pH below 7."
+    "answer": "A pH below 7.",
+    "distractor": "A pH above 7."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "What pH values describe an alkaline solution?",
-    "answer": "A pH above 7."
+    "answer": "A pH above 7.",
+    "distractor": "A pH below 7."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "What pH is neutral at room temperature?",
-    "answer": "About pH 7."
+    "answer": "About pH 7.",
+    "distractor": "About pH 14."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "What does an indicator do?",
-    "answer": "It changes colour to show whether a solution is acidic, neutral or alkaline."
+    "answer": "It changes colour to show whether a solution is acidic, neutral or alkaline.",
+    "distractor": "It changes the solution’s temperature to show how quickly it reacts."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "What does universal indicator show?",
-    "answer": "A range of colours that can be matched to an approximate pH."
+    "answer": "A range of colours that can be matched to an approximate pH.",
+    "distractor": "One colour that gives an exact pH value without a colour scale."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "What colour does universal indicator usually show in a neutral solution?",
-    "answer": "Green."
+    "answer": "Green.",
+    "distractor": "Purple."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "What does a lower pH number generally mean?",
-    "answer": "The solution is more acidic."
+    "answer": "The solution is more acidic.",
+    "distractor": "The solution is less acidic."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "What colour does blue litmus paper turn in an acidic solution?",
-    "answer": "Red."
+    "answer": "Red.",
+    "distractor": "Blue."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "What colour does red litmus paper turn in an alkaline solution?",
-    "answer": "Blue."
+    "answer": "Blue.",
+    "distractor": "Red."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "What is a base?",
-    "answer": "A substance that can neutralise an acid; an alkali is a base that dissolves in water."
+    "answer": "A substance that can neutralise an acid; an alkali is a base that dissolves in water.",
+    "distractor": "A substance that makes an acid stronger without reacting with it."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "What happens in a neutralisation reaction between an acid and an alkali?",
-    "answer": "The acid and alkali react to form a salt and water."
+    "answer": "The acid and alkali react to form a salt and water.",
+    "distractor": "The acid and alkali react to form a gas and a metal."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "What salt forms when hydrochloric acid is neutralised by sodium hydroxide?",
-    "answer": "Sodium chloride; water is formed as well."
+    "answer": "Sodium chloride; water is formed as well.",
+    "distractor": "Sodium sulfate; water is formed as well."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "What happens to the pH as an acid is neutralised by adding an alkali?",
-    "answer": "It rises towards neutral; the exact final pH depends on the amounts and strengths of the solutions."
+    "answer": "It rises towards neutral; the exact final pH depends on the amounts and strengths of the solutions.",
+    "distractor": "It falls further below neutral as more alkali is added."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "How can an antacid help someone with excess stomach acid?",
-    "answer": "It contains a base that neutralises some of the excess acid."
+    "answer": "It contains a base that neutralises some of the excess acid.",
+    "distractor": "It contains an acid that adds to the excess stomach acid."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "Why might a gardener add lime to acidic soil?",
-    "answer": "Lime is alkaline and can help raise the soil's pH towards a level suitable for particular plants."
+    "answer": "Lime is alkaline and can help raise the soil's pH towards a level suitable for particular plants.",
+    "distractor": "Lime is acidic and lowers the soil pH for all plants."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "Is lemon juice usually acidic, neutral or alkaline?",
-    "answer": "Acidic."
+    "answer": "Acidic.",
+    "distractor": "Alkaline."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "Is a solution of baking soda usually acidic, neutral or alkaline?",
-    "answer": "Weakly alkaline."
+    "answer": "Weakly alkaline.",
+    "distractor": "Acidic."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "How could you estimate the pH of an unknown solution in a school lab?",
-    "answer": "Use universal indicator or pH paper and compare its colour with the supplied pH scale, following the teacher's safety instructions."
+    "answer": "Use universal indicator or pH paper and compare its colour with the supplied pH scale, following the teacher's safety instructions.",
+    "distractor": "Taste a tiny drop and compare the flavour with known acids."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "Why should you never taste an unknown laboratory solution?",
-    "answer": "It could be harmful; identify it only with an approved test and your teacher's instructions."
+    "answer": "It could be harmful; identify it only with an approved test and your teacher's instructions.",
+    "distractor": "It is safe to taste a tiny amount if you rinse your mouth afterwards."
   },
   {
     "topic": "Acids and Alkalis",
     "question": "How can neutralisation be used to treat acidic wastewater?",
-    "answer": "A suitable alkali can be added in a controlled way to raise the pH before the water is released."
+    "answer": "A suitable alkali can be added in a controlled way to raise the pH before the water is released.",
+    "distractor": "Add a strong acid until the wastewater’s pH rises to 7 before release."
   },
   {
     "topic": "Electromagnetism",
     "question": "Name two materials that are attracted to a magnet.",
-    "answer": "Iron and steel; nickel and cobalt are also magnetic materials."
+    "answer": "Iron and steel; nickel and cobalt are also magnetic materials.",
+    "distractor": "Copper and aluminium."
   },
   {
     "topic": "Electromagnetism",
     "question": "Where is the magnetic effect strongest on a bar magnet?",
-    "answer": "At its poles, near the two ends."
+    "answer": "At its poles, near the two ends.",
+    "distractor": "At the centre of the magnet, halfway between its poles."
   },
   {
     "topic": "Electromagnetism",
     "question": "What happens when two north poles are brought close together?",
-    "answer": "They repel each other."
+    "answer": "They repel each other.",
+    "distractor": "They attract each other."
   },
   {
     "topic": "Electromagnetism",
     "question": "What happens when a north pole and a south pole are brought close together?",
-    "answer": "They attract each other."
+    "answer": "They attract each other.",
+    "distractor": "They repel each other."
   },
   {
     "topic": "Electromagnetism",
     "question": "What is a magnetic field?",
-    "answer": "The region around a magnet or current-carrying wire where magnetic forces can act."
+    "answer": "The region around a magnet or current-carrying wire where magnetic forces can act.",
+    "distractor": "The solid metal inside a magnet where magnetic charge is stored."
   },
   {
     "topic": "Electromagnetism",
     "question": "What do magnetic field lines show?",
-    "answer": "The direction a north pole would point; outside a bar magnet they go from north to south."
+    "answer": "The direction a north pole would point; outside a bar magnet they go from north to south.",
+    "distractor": "The path taken by electrons as they flow through a wire."
   },
   {
     "topic": "Electromagnetism",
     "question": "What does it mean when magnetic field lines are close together?",
-    "answer": "The magnetic field is stronger in that region."
+    "answer": "The magnetic field is stronger in that region.",
+    "distractor": "The magnetic field is weaker in that region."
   },
   {
     "topic": "Electromagnetism",
     "question": "What is a permanent magnet?",
-    "answer": "A magnet that produces its own magnetic field without needing an electric current."
+    "answer": "A magnet that produces its own magnetic field without needing an electric current.",
+    "distractor": "A magnet that produces a field only while connected to a current."
   },
   {
     "topic": "Electromagnetism",
     "question": "What is an induced magnet?",
-    "answer": "A material that becomes magnetic when it is placed in a magnetic field."
+    "answer": "A material that becomes magnetic when it is placed in a magnetic field.",
+    "distractor": "A permanent magnet made by winding a wire coil around a battery."
   },
   {
     "topic": "Electromagnetism",
     "question": "Why is soft iron useful as the core of an electromagnet?",
-    "answer": "It becomes strongly magnetised when the current flows and usually loses most of its magnetism when the current stops."
+    "answer": "It becomes strongly magnetised when the current flows and usually loses most of its magnetism when the current stops.",
+    "distractor": "A hard steel core that permanently remains magnetised when the current stops."
   },
   {
     "topic": "Electromagnetism",
     "question": "What creates the magnetic field in an electromagnet?",
-    "answer": "An electric current flowing through a coil of wire."
+    "answer": "An electric current flowing through a coil of wire.",
+    "distractor": "A permanent magnetic field left behind after the current stops."
   },
   {
     "topic": "Electromagnetism",
     "question": "How does adding more turns to an electromagnet's coil affect its strength, if the current stays the same?",
-    "answer": "It generally makes the magnetic field stronger."
+    "answer": "It generally makes the magnetic field stronger.",
+    "distractor": "Adding more turns generally makes the magnetic field weaker."
   },
   {
     "topic": "Electromagnetism",
     "question": "How does increasing the current through an electromagnet affect its field?",
-    "answer": "It generally makes the field stronger, within the safe operating limits of the circuit."
+    "answer": "It generally makes the field stronger, within the safe operating limits of the circuit.",
+    "distractor": "It generally makes the field weaker, within the safe operating limits."
   },
   {
     "topic": "Electromagnetism",
     "question": "What happens to an electromagnet's magnetic field when its circuit is switched off?",
-    "answer": "The field from the current stops; a soft-iron core loses most of its induced magnetism."
+    "answer": "The field from the current stops; a soft-iron core loses most of its induced magnetism.",
+    "distractor": "The field becomes stronger because the current is no longer interrupted."
   },
   {
     "topic": "Electromagnetism",
     "question": "What is a solenoid?",
-    "answer": "A coil of wire that produces a magnetic field when an electric current flows through it."
+    "answer": "A coil of wire that produces a magnetic field when an electric current flows through it.",
+    "distractor": "A straight wire that carries current and produces no magnetic field."
   },
   {
     "topic": "Electromagnetism",
     "question": "Why is an electromagnet useful for a scrapyard crane?",
-    "answer": "It can pick up magnetic metals when switched on and release them when the current is switched off."
+    "answer": "It can pick up magnetic metals when switched on and release them when the current is switched off.",
+    "distractor": "It can lift any material when switched on and releases it when unplugged."
   },
   {
     "topic": "Electromagnetism",
     "question": "How does an electromagnetic relay use magnetism?",
-    "answer": "A current in a coil creates a magnetic field that moves a switch in a separate circuit."
+    "answer": "A current in a coil creates a magnetic field that moves a switch in a separate circuit.",
+    "distractor": "A coil uses magnetism to keep the same switch open in the same circuit."
   },
   {
     "topic": "Electromagnetism",
     "question": "How does a compass help you find direction?",
-    "answer": "Its magnetised needle turns to align with the local magnetic field."
+    "answer": "Its magnetised needle turns to align with the local magnetic field.",
+    "distractor": "Its needle points directly towards the nearest large metal object."
   },
   {
     "topic": "Electromagnetism",
     "question": "What is one difference between a permanent magnet and an electromagnet?",
-    "answer": "A permanent magnet keeps its field without current; an electromagnet's field depends on current in its coil."
+    "answer": "A permanent magnet keeps its field without current; an electromagnet's field depends on current in its coil.",
+    "distractor": "An electromagnet keeps its field without current, while a permanent magnet needs current."
   },
   {
     "topic": "Electromagnetism",
     "question": "Why can a current-carrying wire affect a nearby compass needle?",
-    "answer": "The electric current produces a magnetic field around the wire."
+    "answer": "The electric current produces a magnetic field around the wire.",
+    "distractor": "The current removes the magnetic field around the wire and turns the compass."
   }
 ]

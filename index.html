@@ -120,6 +120,30 @@
         letter-spacing: 0.08em;
       }
 
+      .test-link {
+        display: inline-flex;
+        min-height: 44px;
+        align-items: center;
+        padding: 0.65rem 0.95rem;
+        border: 1px solid rgb(255 80 216 / 52%);
+        border-radius: 999px;
+        background: rgb(255 80 216 / 9%);
+        box-shadow: 0 0 16px rgb(255 80 216 / 12%);
+        color: #ff91e4;
+        font-size: 0.82rem;
+        font-weight: 800;
+        text-decoration: none;
+      }
+
+      .test-link:hover {
+        background: rgb(255 80 216 / 16%);
+      }
+
+      .test-link:focus-visible {
+        outline: 3px solid var(--lime);
+        outline-offset: 3px;
+      }
+
       .intro {
         padding: clamp(2.5rem, 7vw, 5rem) 0 2rem;
         text-align: center;
@@ -685,6 +709,7 @@
     <main class="page">
       <header class="topline">
         <span class="year-tag">YEAR 7</span>
+        <a class="test-link" href="./test.html">Take a Test</a>
       </header>
 
       <section class="intro" aria-labelledby="page-title">
